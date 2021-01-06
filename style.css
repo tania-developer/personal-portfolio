@@ -32,7 +32,8 @@ nav ul li a{
     color: #000;
     
 }
-h1{
+
+.half-width h1{
     font-size: 50px;
 }
 .half-width{
@@ -64,6 +65,7 @@ section{
 .half-width h2{
     font-size: 30px;
 }
+
 .latest-project{
     background-color: rgb(242, 243, 243);
     height: 800px;
@@ -96,6 +98,7 @@ section{
      width: 60%;
      margin: 8% 20%;
 }
+
 .icon{
     height: 40px;
     width: 50px;
@@ -106,4 +109,83 @@ section{
 }
 .blue-highlight{
     color: rgb(199, 21, 154);
+}
+
+
+
+#skills{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width:100%;
+    margin:auto auto 50px auto;
+   
+}
+.skill-text{
+	width:400px;
+}
+.skill-img{
+	width:600px;
+    height: 600px;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+.skill-img img{
+	width:80%;
+    height: 70%;
+    margin-top: 5%;
+    box-shadow: 10px 10px 40px gray;
+	
+}
+	
+
+.skill-heading h2{
+	color: #1c3548;
+	margin:0px;
+	font-weight: 400;
+	font-size: 40px;
+}
+.s-box-container{
+	margin-top: 30px;
+}
+.skill-box{
+	display: flex;
+	margin: 25px 0px;
+}
+.s-box-icon{
+	margin-right:12px;
+}
+.s-box-icon i{
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f0f0f0;
+	
+}
+.s-box-text strong{
+	color:#1c3548;
+	margin: 0px;
+	font-weight: 600;
+}
+.s-box-text p{
+	color:#747474;
+	
+}
+.fa-html5{
+	color:rgb(199, 21, 154);
+}
+.fa-css3-alt{
+	color:#416cdf;
+}
+.fa-js-square{
+	color:#f98231;
+}
+.skill-heading{
+    font-size: 20px;
+}
+.skill-heading h2{
+    font-size: 40px;
 }
