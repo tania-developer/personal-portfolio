@@ -97,18 +97,38 @@ section{
 .contact{
     text-align: center;
 }
-.contact img{
+.contact-bg {
+     background-image: url('images/Group_33094_1.png');
      width: 60%;
      margin: 8% 20%;
+     height: 40%;
+     background-size: cover;
+     border-radius: 10px;
+     
+}
+.contact-bg h1{
+    float:left;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 40px;
 }
 
-.icon{
+.contact-bg .link-button{
+    float:right;
+    margin-right: 100px;
+    margin-top: 70px;
+    
+}
+.icon img{
     height: 40px;
     width: 50px;
-    margin-left: 45%;
-    margin-right: 40%;
-    display: flex;
-    
+
+}
+
+
+.contact-text{
+    margin-top: -50px;
 }
 .blue-highlight{
     color: rgb(199, 21, 154);
