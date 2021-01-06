@@ -66,6 +66,9 @@ section{
     font-size: 30px;
 }
 
+.second-sec{
+    background-image: linear-gradient(180deg,rgb(247, 247, 248),rgb(223, 201, 223));
+}
 .latest-project{
     background-color: rgb(242, 243, 243);
     height: 800px;
@@ -144,6 +147,9 @@ section{
 	margin:0px;
 	font-weight: 400;
 	font-size: 40px;
+}
+.skill-heading h3{
+    padding-top: 100px;
 }
 .s-box-container{
 	margin-top: 30px;
